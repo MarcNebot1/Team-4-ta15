@@ -12,7 +12,9 @@ Team 4: Marc Nebot, Borja Montseny i Marc Padrell
 
 **Ejercicio 3**
 
-
+![image](https://user-images.githubusercontent.com/68342939/166271127-afe40327-c1f3-454e-b73c-4f414a555308.png)
+![image](https://user-images.githubusercontent.com/68342939/166289065-e9e6775c-2552-4430-b38c-4df6679fc795.png)
+![image](https://user-images.githubusercontent.com/68342939/166284023-a053f157-626e-4fa0-94b1-b50ab9130ed0.png)
 
 ## Ejercicios realizados por Marc Nebot: 5
 
