@@ -22,6 +22,13 @@ Team 4: Marc Nebot, Borja Montseny i Marc Padrell
 
 **Ejercicio 5**
 
+![image](https://user-images.githubusercontent.com/103039613/166740801-b91eac6e-3886-4196-8233-2613c9b53b0b.png)
+
+![image](https://user-images.githubusercontent.com/103039613/166740882-ac0fb3cd-40bc-4840-9feb-6f74ac62fba4.png)
+
+![image](https://user-images.githubusercontent.com/103039613/166740991-7e889a74-61e0-4270-a288-1818838fff1a.png)
+
+![image](https://user-images.githubusercontent.com/103039613/166740530-b4d9b003-7364-4981-9b1d-b45c15283107.png)
 
 
 ## Ejercicios realizados por Marc Padrell: 1 i 4
