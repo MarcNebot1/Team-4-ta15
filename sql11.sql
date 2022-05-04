@@ -1,0 +1,32 @@
+CREATE DATABASE Ejercicio_11;
+USE Ejercicio_11;
+
+CREATE TABLE FACULTAD(
+codigo int PRIMARY KEY,
+nombre varchar(100));
+
+CREATE TABLE INVESTIGADORES(
+dni  varchar(8) PRIMARY KEY,
+nombre varchar(100),
+nomapels varchar(255),
+facultad int,
+FOREIGN KEY(facultad) REFERENCES FACULTAD(codigo)
+ON DELETE CASCADE ON UPDATE CASCADE);
+
+CREATE TABLE EQUIPOS(
+numserie varchar(4) PRIMARY KEY,
+nombre varchar(100),
+facultad int,
+FOREIGN KEY(facultad) REFERENCES FACULTAD(codigo)
+ON DELETE CASCADE ON UPDATE CASCADE);
+
+CREATE TABLE RESERVA(
+dni1 varchar(8),
+numserie1 varchar(4),
+comienzo varchar(100),
+fin varchar(100),
+PRIMARY KEY(dni1,numserie1),
+FOREIGN KEY(dni1) REFERENCES INVESTIGADORES(dni)
+ON DELETE CASCADE ON UPDATE CASCADE,
+FOREIGN KEY(numserie1) REFERENCES EQUIPOS(numserie)
+ON DELETE CASCADE ON UPDATE CASCADE);

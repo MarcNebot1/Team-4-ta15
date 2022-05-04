@@ -1,0 +1,26 @@
+INSERT INTO FACULTAD (codigo, nombre)
+ VALUES
+ (11111,'Rovira i virgili'),
+ (22222, 'UAB'),
+ (33333, 'Blanquerna');
+ 
+ INSERT INTO INVESTIGADORES (DNI, nombre, nomapels, facultad)
+ VALUES
+ ('1111111R','Marc','NebotMuro', 11111),
+ ('2222222R','Marcc','Padrell', 22222),
+ ('3333333R','Borja','Montseny', 33333);
+ 
+  INSERT INTO EQUIPOS (numserie, nombre, facultad)
+ VALUES
+ ('ABCD','Ferran',11111),
+ ('BCDA','Pablo',22222),
+ ('CDAB','Laura',33333);
+ 
+ 
+ INSERT INTO RESERVA (dni1, numserie1, comienzo, fin)
+ VALUES
+ ('1111111R','ABCD', '01-01-98', '01-01-98'),
+ ('2222222R','BCDA', '01-01-98', '01-01-98'), 
+ ('3333333R','CDAB', '01-01-98', '01-01-98');
+ 
+
